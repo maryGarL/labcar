@@ -1,0 +1,185 @@
+
+*{
+  color: white;
+  padding: 0;
+  margin:0;
+}
+.fleft{
+  float: left !important;
+  margin-right: 10px;
+}
+.centrar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.no-float
+{
+  float:none !important;
+}
+a img{
+  width: 127px;
+}
+.h-nav
+{
+  display: flex;
+  align-items: center;
+  height: 74px;
+  padding-left: 10px;
+}
+@media (min-width: 1024px) {
+  section nav div ul {
+      float: right !important;
+  }
+ }
+ .inicio{
+   background-image: url(../img/taxi.jpg);
+   background-size:cover;
+   height: 100vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: 100% 94%;
+ }
+ .unete{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   background-image: url(../img/conduce.jpg);
+   background-size:cover;
+   height: 100vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: 100% 94%;
+ }
+ .invitacion{
+   background-color: rgba(0, 0, 0, 0.4);;
+   height: 100vh;
+   width: 35%;
+ }
+ .registrate{
+   background: #F7B617;
+   height: 70vh;
+   width: 42%;
+   margin-top: 75px;
+   float: right;
+ }
+ .bienvenida{
+    background: #F7B617;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .mapa{
+      background: #F7B617;
+      height: 100vh;
+      width: 100%;}
+ .texto{
+   display: block;
+   position: relative;
+   margin-left: 37px;
+   margin-top: 41px;
+ }
+ .texto1{
+   display: none;
+   position: relative;
+   margin-left: 37px;
+   margin-top: 41px;
+ }
+ .texto .container-fluid button{
+   margin-top: 42px;
+ }
+ .estilo {
+   background-color: transparent;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid white;
+   width: 100%;
+ }
+ .msn1, .see{
+   display: none;
+ }
+ @media (min-width: 320px) and (max-width: 428px) {
+   .registrate{
+     background: #F7B617;
+     height: 61vh;
+     width: 84%;
+     margin-top: 68px;
+     float: right;
+   }
+   .unete{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     background-image: url(../img/conduce.jpg);
+     background-size:cover;
+     height: 40vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 94%;
+   }
+   .invitacion{
+     background-color: rgba(0, 0, 0, 0.4);;
+     height: 40vh;
+     width: 100%;
+   }
+   .image{
+     margin: 0;
+   }
+   .msn1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border: 1px white solid;
+     width: 93%;
+   }
+   .see{
+     display: block;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 93%
+   }
+   .msn1 .image img{
+     width: 90%;
+   }
+   .texto{
+     display: none;
+   }
+   .msn{
+     display: none;
+   }
+   .texto1{
+     display: block;
+     position: relative;
+     margin-left: 37px;
+     margin-top: 41px;
+   }
+ }
+.img-logo{
+  height: 18px;
+}
+.msn{
+  padding:22px !important;
+  border: 1px solid white;
+}
+footer{
+  background-color: #2B2B2B;
+  width: 100%;
+  height: 46vh;
+}
+footer h2{
+  margin: 0;
+}
+ul li{
+  list-style: none;
+}
+.stores img{
+  width: 50%;
+}
+.pd0{
+  padding: 0 !important;
+  margin: 0 !important;
+}
