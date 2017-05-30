@@ -1,8 +1,9 @@
+
 function initMap() {
   var laboratoriaLima = {lat: -12.1191427, lng: -77.03349046};
-  var map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('map'),{
     zoom: 3,
-    center: laboratoriaLima,
+    center: laboratoriaLima
   });
   var marker = new google.maps.Marker({
     position: laboratoriaLima,
@@ -14,6 +15,7 @@ function initMap() {
      }
      marker.setMap(null);
    }
+
    var latitud,longitud,miUbicacion,map;
    var funcionExito=function(posicion){
      latitud=posicion.coords.latitude;
@@ -41,7 +43,7 @@ function initMap() {
      directionsService.route({
        origin:partida.value,
        destination: destino.value,
-       travelMode:"DRIVING",
+       travelMode:"DRIVING"
      },function (response,status){
        if(status==="OK"){
          var distancia=
@@ -66,4 +68,5 @@ function initMap() {
      calculateAndDisplayRoute(directionsService, directionsDisplay);
    }
    document.getElementById("ruta").addEventListener("click",trazarRuta);
+   window.onload=buscar()
  }
